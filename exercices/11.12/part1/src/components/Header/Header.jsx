@@ -1,6 +1,12 @@
+import image from './téléchargé.jpg'
+
 const Header = (props) => {
     return (
-      <h1>{props.course}</h1>)
+      <div>
+        <img src={image} alt="logo" />
+        <h1>{props.course}</h1>
+      </div>
+    )
       
 }
 
